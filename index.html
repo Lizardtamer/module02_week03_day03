@@ -75,41 +75,48 @@
         <div id="assignmentBlocks">
             <div class="assignmentBlock">
                 <h1>Fade-out</h1>
-                <h1 id="ninjaEmoji">🥷🏼</h1>
+                <h1 id="ninjaEmoji" class="fadeOut">🥷🏼</h1>
                 <button
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the fadeOut class to the HTML element with the ninja emoji
+
+                    let ninjaEmojiHTML = document.getElementById("ninjaEmoji");
+                    ninjaEmojiHTML.fadeOut = document.getElementById("ninjaEmoji");
 
 
                     '>Click me</button>
             </div>
             <div class="assignmentBlock">
                 <h1>Slide</h1>
-                <h1 id="yogaEmoji">🧘🏾‍♀️</h1>
+                <h1 id="yogaEmoji" class="slide">🧘🏾‍♀️</h1>
                 <button
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the slide class to the HTML element with the yoga emoji
 
+                    let yogaEmojiHTML = document.getElementById("yogaEmoji");
+                    yogaEmojiHTML.slide = document.getElementById("yogaEmoji");
 
                     '>Click me</button>
             </div>
             <div class="assignmentBlock">
                 <h1>Grow</h1>
-                <h1 id="smileyEmoji">😀</h1>
+                <h1 id="smileyEmoji" class="grow">😀</h1>
                 <button
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the grow class to the HTML element with the smiley emoji
 
+                    let smileyEmojiHTML = document.getElementById("smileyEmoji");
+                    smileyEmojiHTML.grow = document.getElementById("smileyEmoji");
 
                     '>Click me</button>
             </div>
             <h3>The following exercises will be more intricate.</h3>
             <div class="assignmentBlock">
                 <h1>Focused Growth</h1>
-                <h1 id="shadeEmoji">😎</h1>
+                <h1 id="shadeEmoji" >😎</h1>
                 <input placeholder="Click Here" type="text" onfocus='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to the HTML element with the smiley emoji
